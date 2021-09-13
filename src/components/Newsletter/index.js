@@ -43,8 +43,6 @@ const Newsletter = () => {
         abortEarly: false,
       });
 
-      console.log(data);
-
     } catch (err) {
       const validationErrors = {};
       if (err instanceof Yup.ValidationError) {
